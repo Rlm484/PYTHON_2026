@@ -1,2 +1,2 @@
-# PYTHON_2026
+# python_2026
 Repository for Coding 2026
