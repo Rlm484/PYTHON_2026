@@ -4,11 +4,15 @@
 # Congratulate the user once their test score is 50 or more (i.e. after the loop ends).
 
 #-----------------------------SET VARIABLES HERE-----------------------------#
-
-
+test_score = 0
 
 #------------------------------MAIN PROGRAM----------------------------------#
 while test_score < 50:
+    try:
+        test_score = int(input("What is your test score?: "))
+    except:
+        print("That's not a score!")
+print("Nice work! You got such a great score!")
     #Let the user know they have not passed yet.
     #Ask user for test score
     
