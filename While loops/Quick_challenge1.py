@@ -1,7 +1,7 @@
 fridge = "no"
 while fridge.lower() != "yes":
     try:
-        fridge = input('BEEP!\nIS THE FRIDGE CLOSED YET?')
+        fridge = input('BEEP!\nIS THE FRIDGE CLOSED YET? ')
     except:
         print('BEEEEP!\nINVALID, INVALID')
 print("Fridge is closed, peace returns at last")
