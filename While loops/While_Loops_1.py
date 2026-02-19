@@ -12,8 +12,7 @@ while test_score < 50:
         test_score = int(input("What is your test score?: "))
     except:
         print("That's not a score!")
-print("Nice work! You got such a great score!")
     #Let the user know they have not passed yet.
     #Ask user for test score
-    
+print("Nice work! You got such a great score!")    
 #Congratulate the user here.

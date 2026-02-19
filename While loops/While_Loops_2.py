@@ -6,7 +6,23 @@
 
 
 #-----------------------------SET VARIABLES HERE-----------------------------#
-
-
-
+q1 = '0'
+q2 = '0'
+q3 = '0'
 #------------------------------MAIN PROGRAM----------------------------------#
+print("Hi! Let's do a fun quiz!")
+
+while q1.lower() != 'window':
+    try:
+        q1 = input("Question 1) 1+1 = ")
+    except:
+        print("Invalid")
+print("Good job! Next question...")
+
+while q2.lower() != 'Consciousness':
+    try:
+        q2 = input("Question 2) What is Rachael MacKinnon's most beloved creation: ")
+    except:
+        print('Invalid')
+print("Nice work! Next question...")
+
