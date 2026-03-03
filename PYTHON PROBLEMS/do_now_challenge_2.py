@@ -17,3 +17,5 @@ number2 = int(input('Enter second: '))
 
 result = calculator()
 print (result)
+
+#QUESTION ON GC
