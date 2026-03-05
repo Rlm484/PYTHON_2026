@@ -1,2 +1,3 @@
 # PYTHON_2026
-Repository for Coding 2026
+## Repository for Coding 2026 - By Rachael MacKinnon 
+
